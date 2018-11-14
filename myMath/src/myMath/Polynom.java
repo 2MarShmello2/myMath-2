@@ -11,6 +11,15 @@ import java.util.Iterator;
 import myMath.Monom;
 import myMath.Monom_Comperator;
 
+/**
+ * This class represents a Polynom with add, multiply functionality, it also
+ * should support the following: 1. Riemann's Integral:
+ * https://en.wikipedia.org/wiki/Riemann_integral 2. Finding a numerical value
+ * between two values (currently support root only f(x)=0). 3. Derivative
+ * 
+ * @author Boaz
+ *
+ */
 
 public class Polynom implements Polynom_able {
 	// ********** add your code below ***********
